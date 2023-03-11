@@ -5,7 +5,7 @@ During my studies, I came across this awesome 3d card effect that changes its ro
 
 </br>
 <div align="center">
-  <img src="./demo.gif" />
+  <img src="public/demo.gif" />
   <p>Let's be honest, they nailed it with this, awesome job!</p>
 </div>
 </br>
@@ -14,6 +14,7 @@ Needless to say, I tried to emulate the same effect with plain HTML, CSS & JS...
 
 ## Table of Contents
 - [The Code](#the-code)
+- [Final Thoughts](#final-thoughts)
 
 
 
@@ -87,7 +88,7 @@ Inside the `coordY` constant, I multiply again by -1. This is needed to fix this
 
 </br>
 <div align="center">
-  <img src="./demoErr.gif" />
+  <img src="public/demoErr.gif" />
   <p>X axis works well but Y axis is always reversed!</p>
 </div>
 </br>
@@ -111,7 +112,7 @@ transform: `rotateX(${coordX}deg) rotateY(${coordY}deg)`
 And that is it! This is the final result:
 </br>
 <div align="center">
-  <img src="./demoFinal.gif" />
+  <img src="public/demoFinal.gif" />
   <p>Awesome</p>
 </div>
 </br>
@@ -121,4 +122,4 @@ Thank you for reading this far! If you enjoyed this, please leave a star and sha
 - [WebAnimationsAPI](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API)
 - [Using the WebAnimationsAPI](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)
 
-And that's about it! Have a great rest of your day!
+And that's about it! Have a great rest of your day! [Back to top](#3-dimensional-card-facing-the-cursor)
